@@ -1,0 +1,140 @@
+/* background*/
+.bg-title-bluesky {
+    background-color: #4d94e0;
+    color: #fff;
+}
+
+.bg-whitelight {
+    background-color: rgba(255, 255, 255, 0.87);
+}
+
+.blue-gradient {
+    background: linear-gradient(to right, #00B4DB, #0083B0);
+}
+
+.bg-purple-gradient {
+    background: linear-gradient(to right, #3c1053, #ad5389);
+
+}
+
+nav .collapse .navbar-nav .nav-item .tombol {
+    border-radius: 40px;
+}
+
+/*untuk ukuran medium*/
+@media(min-width:768px) and (max-width: 867px) {
+    nav .collapse .navbar-nav form div button {
+        margin-left: 30px !important;
+    }
+}
+
+.jumbotron {
+    background-color: #000000;
+    background-image: url(../img/homesecurity.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    color: #fff;
+    position: relative;
+}
+
+.jumbotron::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 50%;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.jumbotron h1 {
+    position: relative;
+    margin: 140px 0 30px 0;
+    font-size: 75px;
+    line-height: 1.5;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
+
+.jumbotron a {
+    position: relative;
+    font-size: 25px;
+    color: white;
+    border-radius: 15px;
+    padding: 10px 30px;
+    background-color: #8db70e;
+}
+
+.jumbotron a:hover {
+    background-color: #c0ff00f7;
+}
+
+@media (min-width: 992px) {
+    .carousel-inner .carousel-item .lead-text {
+        font-size: 40px !important;
+        font-weight: 400 !important;
+    }
+
+}
+
+@media(min-width:768px) and (max-width: 993px) {
+    .carousel-inner .carousel-item .lead-text {
+        font-size: 20px !important;
+        font-weight: 100 !important;
+    }
+}
+
+.font-me-primary {
+    font-size: 50px;
+}
+
+
+/* price list */
+.top-title {
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 50% 100%, 0 75%);
+    background-color: teal;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: -20px;
+    padding: 20px;
+    color: #fff;
+}
+
+.bottom-button {
+    margin-bottom: -25px;
+}
+
+ul.icon-system {
+    font-size: 45px;
+}
+
+ul.icon-system li a i:hover {
+    color: #0056b3;
+}
+
+.jumbotron-bottom {
+    margin-top: 20px;
+    margin-bottom: 0px !important;
+    background-image: url(../img/SmartTechnology.jpg);
+    height: 55vh !important;
+    background-attachment: fixed;
+}
+
+
+div.footer div img {
+    width: 200px;
+    height: 100px;
+}
+
+div.footer div ul li a {
+    color: #fff;
+}
+
+div.footer div ul li a:hover {
+    color: violet;
+}
+
+div.footer div ul li {
+    margin-bottom: 16px;
+}
